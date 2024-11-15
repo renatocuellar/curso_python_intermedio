@@ -59,3 +59,33 @@ def fibonacci():
         next = fib
 
 fibonacci()
+
+#Número primo
+
+def is_prime():
+
+    for number in range(1, 101):
+
+        if number >= 2:
+
+            is_divisible = False
+
+            for index in range(2, number):
+                if number % index == 0:
+                    is_divisible = True
+                    break
+
+            if not is_divisible:
+                print(number)
+
+
+
+# Invertir cadenas
+
+def reverse(text):
+    text_len = len(text)
+    reversed_text = ""
+    for index in range(0, text_len):
+        reversed_text += text[text_len - index - 1]
+
+print(reverse("Hola Mundo"))
