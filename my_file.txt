@@ -1,0 +1,4 @@
+Mi nombre es Renato
+Mi apellido es Cuellar
+Mi edad es 35 años
+Estoy aprendiendo Python
